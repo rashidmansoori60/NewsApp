@@ -1,0 +1,23 @@
+
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+<!-- AppCompat आधारित मुख्य थीम -->
+<style name="Theme.KotlinApp" parent="Theme.AppCompat.Light.NoActionBar">
+    <!-- Status bar का कलर -->
+    <item name="colorPrimaryDark">@color/purple_700</item>
+
+    <!-- App Bar का कलर -->
+    <item name="colorPrimary">@color/purple_500</item>
+
+    <!-- Accent/Highlight कलर -->
+    <item name="colorAccent">@color/teal_200</item>
+
+    <!-- अन्य जरूरतें -->
+    <item name="android:windowBackground">@color/white</item>
+    <item name="android:statusBarColor">@color/purple_700</item>
+    <item name="android:navigationBarColor">@color/white</item>
+    <item name="android:windowNoTitle">true</item>
+    <item name="windowActionBar">false</item>
+</style>
+
+</resources>
